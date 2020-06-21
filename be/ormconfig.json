@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "postgres",
+  "port": 5432,
+  "username": "foodapp",
+  "password": 1234,
+  "database": "foodapp",
+  "synchronize": true,
+  "logging": "all",
+  "entities": ["src/entity/**/*.ts"],
+  "migrations": ["src/migration/**/*.ts"],
+  "subscribers": ["src/subscriber/**/*.ts"]
+}
